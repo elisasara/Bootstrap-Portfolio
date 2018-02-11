@@ -16,7 +16,7 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <!-- This allows the navbar to be mobile friendly, created the menu icon instead of just moving the nav items underneath the name. -->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -25,26 +25,25 @@
                 <h1>Elisa Urda</h1>
                 </div>
             </div>
-            <!-- This is the second half of the code, telling it to take these items and make them the options under the menu icon. -->
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">About</a>
+                        <a href="index.html">About</a>
                     </li>
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a href="portfolio.html">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <div class="container">
+        <div class="row">
         <div class="col-md-8">
-            <h1>About Me</h1>
+            <h3>About Me</h3>
             <hr />
                 <img src="Assets/images/ProfilePicture.jpg" alt="Profile Photo" class="profile">
             <div class="paragraph">
@@ -62,32 +61,30 @@
         <div class="col-md-1"></div>
         <div class="col-md-3">
             <div class="row">
-                <h1>Connect with Me</h1>
+                <h3 id="connect">Connect with Me</h3>
                 <hr />
             </div>
             <div class="row">
-                <div class="col-md-4">
                 <a href="https://www.linkedin.com/in/elisa-urda-5b901316/" target="_blank">
                     <img src="Assets/images/LinkedIn.png" alt="LinkedIn" class="SocialMedia">
                 </a>
-            </div>
-            <div class="col-md-4">
+
                 <a href="https://github.com/elisasara" target="_blank">
                     <img src="Assets/images/Github.svg" alt="Github" class="SocialMedia">
                 </a>
-            </div>
-            <div class="col-md-4">
+
                 <a href="mailto:urda.elisa@gmail.com">
                     <img src="Assets/images/Email.png" alt="Email" class="SocialMedia">
                 </a>
-            </div>
+
             </div>
         </div>
     </div>
+    </div>
 
-    <footer class="nav navbar-default navbar-fixed-bottom">
+    <footer class="nav navbar-default" id="footer">
         <div class="container-fluid">
-            <p class="footer-text" align="center">© Copyright 2018 Elisa Urda</p>
+            <p class="footer-text">© Copyright 2018 Elisa Urda</p>
         </div>
     </footer>
 
