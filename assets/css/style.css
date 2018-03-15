@@ -18,7 +18,7 @@ h3 {
 }
 
 .navbar {
-    max-width: 1100px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
@@ -40,27 +40,18 @@ h3 {
     margin: 0;  
 }
 
-.col-md-8 {
-    /* background-color: #ffffff; */
-    /* margin-bottom: 75px; */
-}   
 
 .sectionContainer {
     background-color: #ffffff;
     width: 90%;
     padding: 10px;
-    margin-left: 4%; 
 }
 
-/* .col-md-3 {
-    background-color: #ffffff;
-} */
 
 .asideContainer {
     background-color: #ffffff;
     width: 95%;
     padding: 10px;
-    margin-right: 4%;
 }
 
 .profile {
@@ -137,4 +128,9 @@ form {
     content: "";
     clear: both;
     display: table;
+}
+
+.container-fluid {
+    max-width: 930px;
+    margin: auto;
 }
